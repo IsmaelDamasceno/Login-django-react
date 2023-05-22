@@ -75,7 +75,7 @@ function Cadastro() {
       { erro }
 
       <button onClick={addUsuario}>Cadastrar</button>
-      <svg onClick={() => navigate('/home')} className='exit' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><g transform="translate(16 0) scale(-1 1)"><path d="M12 10V8H7V6h5V4l3 3zm-1-1v4H6v3l-6-3V0h11v5h-1V1H2l4 2v9h4V9z"/></g></svg>
+      <svg onClick={() => navigate('/')} className='exit' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><g transform="translate(16 0) scale(-1 1)"><path d="M12 10V8H7V6h5V4l3 3zm-1-1v4H6v3l-6-3V0h11v5h-1V1H2l4 2v9h4V9z"/></g></svg>
 
     </div>
   )

@@ -63,6 +63,9 @@ export default function RootRoute() {
             <button style={{width: '50%'}} onClick={() => navigate('/cadastro')}>
                 Cadastros
             </button>
+            <button style={{width: '50%'}} onClick={() => navigate('/login')}>
+                Voltar
+            </button>
         </div>
     );
 }
