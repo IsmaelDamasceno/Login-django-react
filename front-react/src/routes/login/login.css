@@ -1,0 +1,40 @@
+.floatDiv {
+    width: 20vw;
+    margin: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.floatDiv input, .floatDiv button, .floatDiv p {
+    width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+p {
+    text-align: left;
+}
+button{
+    margin: 5px 0;
+    width: 100%;
+}
+
+.ERRO {
+    background-color: #f85a45;
+    padding: 5px;
+    transition: 0.2s;
+    cursor: default;
+}
+
+.ERRO:hover {
+    background-color: #f89c45;
+    color: black;
+    transition: 0.2s;
+}

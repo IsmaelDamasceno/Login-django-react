@@ -1,0 +1,25 @@
+
+.ERRO {
+    background-color: #f85a45;
+    padding: 5px;
+    transition: 0.2s;
+    cursor: default;
+}
+
+.ERRO:hover {
+    background-color: #f89c45;
+    color: black;
+    transition: 0.2s;
+}
+.exit {
+    fill: white;
+    transition: 0.2s;
+    width: 48px;
+    height: auto;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.exit:hover {
+    fill: rgb(71, 255, 147);
+    transition: 0.2s;
+}
